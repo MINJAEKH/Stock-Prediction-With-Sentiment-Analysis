@@ -10,8 +10,7 @@
 - 투자자 심리를 나타내는 감성지표를 반영할 떄, 주가 예측 성능에 크게 영향을 미치는 데이터의 조합을 검토
 
 # 3. 프로젝트 소개 
-<img src="https://github.com/MINJAEKH/Stock-Prediction-With-Sentiment-Analysis/assets/109459615/933e8bc0-4a0f-4372-b91e-3ac6ae87419c" alt="scheme" align="center">
-![image](https://github.com/MINJAEKH/Stock-Prediction-With-Sentiment-Analysis/assets/109459615/5da21aee-6495-4b7c-8d6f-f77ba09647bc)
+![image](https://github.com/MINJAEKH/Stock-Prediction-With-Sentiment-Analysis/assets/109459615/a3e9ff6e-be17-4dbc-9184-22c4383fa3e6)
 
 - 분석 대상 : 코스닥 테마주에 주목하여 해당 테마에 속하는 대표 종목 (에스엠, 에코프로)
 - 텍스트 데이터 : 뉴스, 주식 커뮤니티 (종토넷, 팍스넷)
@@ -19,7 +18,7 @@
 - 모델 : KcElectra (5가지로 세분화하여 분류), conv1D-LSTM 모델
 
 ###**실험 결과**
-<img src="https://github.com/MINJAEKH/Stock-Prediction-With-Sentiment-Analysis/assets/109459615/4a2127ba-1d27-415a-a64c-19438d089d23" alt="scheme" align="center"> ![image](https://github.com/MINJAEKH/Stock-Prediction-With-Sentiment-Analysis/assets/109459615/4a859004-c33e-428f-bf8b-28ee2eb2d84d)
+![image](https://github.com/MINJAEKH/Stock-Prediction-With-Sentiment-Analysis/assets/109459615/4a2127ba-1d27-415a-a64c-19438d089d23)
 
 - 에스엠과 달리 에코프로는 감성분석 반영 여부 자체가 모델 성능에 큰 영향을 미친다.
 - 에스엠과 에코프로 모두 **뉴스와 종토넷의 감성지표를 반영**한 결과가 가장 좋은 예측 성능을 보였다.
@@ -28,6 +27,6 @@
 
 # 4. 역할
 - 뉴스 데이터 수집
-- 텍스트 데이터 전처리, 뉴스 데이터 요약
-- 주가 예측 모델링
-- 
+- 텍스트 데이터 전처리
+- LSTM과 Transformer 성능 비교 : Transformer 실험에 참여
+- conv1D-LSTM 모델링 
