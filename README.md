@@ -17,7 +17,7 @@
 - 분석 범위 : 각 종목에 대해 활발하게 논의가 오간 기간을 중심으로 6개월
 - 모델 : KcElectra (5가지로 세분화하여 분류), conv1D-LSTM 모델
 
-###**실험 결과**
+### 3.1 실험 결과
 ![image](https://github.com/MINJAEKH/Stock-Prediction-With-Sentiment-Analysis/assets/109459615/4a2127ba-1d27-415a-a64c-19438d089d23)
 
 - 에스엠과 달리 에코프로는 감성분석 반영 여부 자체가 모델 성능에 큰 영향을 미친다.
